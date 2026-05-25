@@ -2,11 +2,9 @@
 
 ## Notes
 
-## Notes
-
 _This project was developed as part of my learning journey in financial analysis and preparation for future CFA studies. The objective of this project is to understand how a company's profitability, operational efficiency, and capital structure can be evaluated through financial ratio analysis using publicly available financial data from PT Telkom Indonesia Tbk (TLKM)._
 
-_During the development process, I also encountered several practical challenges in Power BI, ranging from DAX calculations, KPI reference labels, and data formatting issues. One particularly memorable issue involved a revenue growth KPI that showed unrealistic values (-90% and +900%), which initially led me to question the calculation logic. After spending several hours investigating the measures and filter context, the root cause turned out to be a simple data formatting issue where a trailing zero was unintentionally removed. While frustrating at the time, the experience reinforced an important lesson in financial analytics: always validate the underlying data before questioning the calculations._
+_The project also became a valuable lesson in data validation. During the Power BI development process, I spent nearly three hours troubleshooting a KPI that showed a 90% decline followed by a 900% increase in revenue growth. After reviewing DAX measures, filter contexts, and KPI calculations, the issue was eventually traced back to a single missing zero caused by a formatting mistake. Although unexpectedly simple, the experience highlighted a key principle of analytics: if a result does not make sense from a business perspective, the data should be verified before the calculation is blamed._
 
 ## Dashboard Preview
 
